@@ -698,7 +698,7 @@ class App(ctk.CTk):
             self._log_append(self.graphics_log, f"✓ Файл сохранён: {path}")
             self._log_append(self.graphics_log, "Скопируй его в:")
             self._log_append(self.graphics_log,
-                r"%LOCALAPPDATA%\FortniteGame\Saved\Config\WindowsClient\")
+                "%LOCALAPPDATA%\\FortniteGame\\Saved\\Config\\WindowsClient\\")
             self._log_append(self.graphics_log, "⚠ Сначала сделай резервную копию старого файла!")
         except Exception as e:
             self._log_append(self.graphics_log, f"✗ Ошибка: {e}")
