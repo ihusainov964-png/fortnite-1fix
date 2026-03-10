@@ -1,2 +1,1 @@
-# fortnite-1fix
-FortniteFix_GitHub.zip
+# Fortnite AWS Fix v6.0
