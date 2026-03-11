@@ -250,11 +250,11 @@ class App(ctk.CTk):
         tb.see("end")
 
     def _btn(self, parent, text, cmd, color=None, width=None, **kw):
+        kw.setdefault("font", ctk.CTkFont(size=13, weight="bold"))
         b = ctk.CTkButton(
             parent, text=text, command=cmd,
             fg_color=color or "#0060df",
             hover_color="#0080ff",
-            font=ctk.CTkFont(size=13, weight="bold"),
             corner_radius=8,
             **({"width": width} if width else {}),
             **kw
